@@ -309,6 +309,7 @@ public class MCTS extends AbstractPlanner {
                     }
                 }
 
+                // We set the new child node information
                 Node next = new Node(nextState, current, problem.getActions().indexOf(a), current.getCost() + 1, heuristic.estimate(nextState, problem.getGoal()));
                 current = next;
     

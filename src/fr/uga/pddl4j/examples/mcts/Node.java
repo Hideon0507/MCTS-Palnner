@@ -210,7 +210,7 @@ public final class Node extends State {
      * @return The state of this node.
      */
     public State getState() {
-        return this; // Since Node extends State, 'this' refers to the Node as a State.
+        return this;
     }
 
 }
