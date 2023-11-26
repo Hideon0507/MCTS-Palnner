@@ -1,0 +1,12 @@
+Domain,Problem,Planner,Runtime,Makespan
+logistics,p01,HSP,0.25,19
+logistics,p01,MCTS,4.51,108
+logistics,p04,HSP,0.29,26
+logistics,p04,MCTS,2.74,108
+logistics,p10,HSP,0.39,23
+logistics,p10,MCTS,3.04,72
+logistics,p13,HSP,0.51,30
+logistics,p13,MCTS,7.25,72
+logistics,p15,HSP,0.80,35
+logistics,p15,MCTS,7.56,108
+
